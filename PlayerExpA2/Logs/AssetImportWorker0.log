@@ -15,7 +15,7 @@ C:/Users/61478/Documents/Projects/SpaceStation/PlayerExpA2/PlayerExpA2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54322
+51700
 Successfully changed project path to: C:/Users/61478/Documents/Projects/SpaceStation/PlayerExpA2/PlayerExpA2
 C:/Users/61478/Documents/Projects/SpaceStation/PlayerExpA2/PlayerExpA2
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/61478/Documents/Projects/SpaceStation/PlayerExpA2/PlayerExpA2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [36580] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3947619262 [EditorId] 3947619262 [Version] 1048832 [Id] WindowsEditor(7,T1000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18692] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1107023931 [EditorId] 1107023931 [Version] 1048832 [Id] WindowsEditor(7,T1000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [36580] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3947619262 [EditorId] 3947619262 [Version] 1048832 [Id] WindowsEditor(7,T1000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18692] Host "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1107023931 [EditorId] 1107023931 [Version] 1048832 [Id] WindowsEditor(7,T1000) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 37.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,37 +67,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56656
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002249 seconds.
+Registered in 0.002025 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.317 seconds
 Domain Reload Profiling:
-	ReloadAssembly (317ms)
-		BeginReloadAssembly (37ms)
+	ReloadAssembly (318ms)
+		BeginReloadAssembly (36ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (225ms)
-			LoadAssemblies (36ms)
+		EndReloadAssembly (224ms)
+			LoadAssemblies (35ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (54ms)
+			SetupTypeCache (51ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
+			RebuildScriptCaches (13ms)
 			SetupLoadedEditorAssemblies (130ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				RefreshPlugins (39ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadAttributes (63ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -105,36 +105,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002727 seconds.
+Registered in 0.002708 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.538 seconds
+- Completed reload, in  0.543 seconds
 Domain Reload Profiling:
-	ReloadAssembly (539ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (544ms)
+		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (10ms)
-		EndReloadAssembly (425ms)
+		EndReloadAssembly (428ms)
 			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (199ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (204ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (42ms)
-				ProcessInitializeOnLoadAttributes (136ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (140ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3523 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (128.9 KB). Loaded Objects now: 3981.
-Memory consumption went from 121.4 MB to 121.2 MB.
-Total: 2.044100 ms (FindLiveObjects: 0.143500 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.803800 ms  DeleteObjects: 0.053000 ms)
+Unloading 3524 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (129.3 KB). Loaded Objects now: 3983.
+Memory consumption went from 121.5 MB to 121.4 MB.
+Total: 1.891600 ms (FindLiveObjects: 0.137400 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.654700 ms  DeleteObjects: 0.054100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,7 +164,1327 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 72851.254562 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675c7899e086c82d0c57281ec19559c2') in 0.007184 seconds 
+  Time since last request: 228897.100907 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c04fcecd270e9bb160de294b9c18d68') in 0.065793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.350942 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025cb67258906f44063447c9ab9aa9be') in 0.009536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.829303 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38415a29e1f334d921d7c68d6664b806') in 0.009972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.864645 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191fdf56fe35d835c193d041e49816e8') in 0.009346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.249386 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a142a155b2e4fac3a8461b320858cec') in 0.008735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.455699 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400ee4974a239d9ea73dc2a57606c370') in 0.015363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.033220 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd00f0694e25fd2d618a44f51dae8a82') in 0.005032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.648453 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76e99c1553cc36b309fe21105afc89e') in 0.008979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.099150 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b31a9aaace6c3b2b288416bfd67ee6') in 0.008963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.201284 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f88cbad2f2564867a662a928a62eece') in 0.008706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.641490 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bd2193e05c57eac20a8881ef6e27bc') in 0.008741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.853572 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1f1a63b4161b82d52f7896d7393a324') in 0.009822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.223048 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e238b36d44cc53c67863c528b53ce7c') in 0.010482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.817819 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3084bac1f294264dbbd1c72f32e54c02') in 0.011579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.609584 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab9bb7ce9261a4f425313fa7a339baf') in 0.007855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.358463 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aece6b6558c4cbbee78ca972b758353') in 0.005509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.701202 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0d39630a75d71235834e83ec883186') in 0.006170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.799340 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f052d03c601d0a8d02de482b80f5fb99') in 0.008488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.581891 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e2210319141001a4cc8614a52b77a4') in 0.004711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.530901 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc3f285d1078e1b93479a9c9ef21a42') in 0.009731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.635432 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f008093adc599d36781eb002492b97cf') in 0.005780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.831789 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacd845b71e256c501cb4c5fad2672d1') in 0.006571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.215585 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10e946a211acef69973c1cca1929d61') in 0.015948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.998801 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c14c2b5b416db47f8812a34ce9d3cb') in 0.015102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.030904 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd6c9de6c641ca27bf866c0bc96b2da') in 0.013519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.601170 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80905962229088b76080fd7cf2c1025c') in 0.008018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.425929 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7504e049721df81cad82b25888c368b') in 0.009195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.390849 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0574f77b2a3186ce57950f7cf6a6ea') in 0.011739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.687953 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f7127dea4ec380a5ceff54e41f3ed0') in 0.010995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.988703 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5832e9023f5fd8d042b2796175fc6091') in 0.009806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.236822 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63282938eca73b1f3952d75ad0482a2') in 0.013149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.044696 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e39f29119728b4ec44536f826d9d757') in 0.010963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.651629 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f90e12e7ea5253f35027ba877e6f9f44') in 0.009890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.632156 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2511ead3fc226a625ec166515422e48d') in 0.009971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.034299 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e86b771ae6c48fcce7906be752efb6') in 0.012395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.609867 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11121593ee2768e6766a34dacbea04d2') in 0.009305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.020749 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981167eadf5035d2623fa4be0703fea9') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.590007 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1308d03c07911d488384898412aafbb5') in 0.014173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.265100 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6825c6343cc452e65a2f0c327c31e64') in 0.018719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.857755 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91adf086575c43c9ee783c209a15c96a') in 0.011507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.694572 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a006b65790c9c3920d4c2eaead39e6') in 0.009960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.234185 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b999f70241b132fbd8324f54b0e1e5cf') in 0.008355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.228250 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac4e09fc149a29348a4aecc890c6be3') in 0.010039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.027589 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8317d31e6f57884d8443cd17a833976d') in 0.010283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.796266 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2655543da8cd640df66d0d043bfce74') in 0.005846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.204149 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88416ad4a5e92fa4493ad758c2c5fdb') in 0.009123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.403982 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e401f095d113af51ccf66b4ae59da6') in 0.005524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.212670 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47f293ec01943ea7d26a41bdbe2677a') in 0.009400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.009970 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4396f9a214be69cea10f98b341a84b1') in 0.006046 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.583 seconds
+Domain Reload Profiling:
+	ReloadAssembly (583ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (95.3 KB). Loaded Objects now: 4008.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 1.863200 ms (FindLiveObjects: 0.133800 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.657800 ms  DeleteObjects: 0.021100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003053 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (147ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (200ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4023.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 1.849400 ms (FindLiveObjects: 0.165000 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.609100 ms  DeleteObjects: 0.026100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.461352 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72268949c4587c113c792002911d401') in 0.021963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.045776 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a86a30d4fffe8fd5e3d918dfd8e0347') in 0.024306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.971810 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc03e159f0015aa1bef5396fa63cef9') in 0.011186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.281573 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d38b414fbe776b6218a75d309da3d2f') in 0.009124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.378919 seconds.
+  path: Assets/GreyBox/Light.mat
+  artifactKey: Guid(41b13d04a230e9c4a9b6e11d416dfee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.mat using Guid(41b13d04a230e9c4a9b6e11d416dfee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb332ba3f67757146ce213059dde0c') in 0.030582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.863818 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b0c77aa69127c65f2390414c5eb15a') in 0.004831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.491773 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f1de3d2c123d1a5e1b48b4f8f1a87c') in 0.005074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.645655 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0980167df6b5b702f572d8cb0b7515') in 0.005131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.065794 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d73de0953f17c80a3275995684e439') in 0.005373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.194543 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce8c59096f5af7010ac265662557d2a') in 0.004346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.035013 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e35b7d062ce2200ae6efe3c75ee7c91') in 0.006507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.004023 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fd3138253ec3fedc76428a3b139282') in 0.004938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.596476 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf180051febae85a6a8fe3f994971b7') in 0.006417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.026887 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbb4b3f311878785166a9c140493a61') in 0.006847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.803861 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4452542b79a8dac0cf1105a522839d8') in 0.005503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.725281 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234cb5ab6395d7127f51b122d270753f') in 0.005699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.676136 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ffdbf14d0b8ecc8bb174084d63b6a2') in 0.009105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.855700 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342a31e032726866abe93d86e4c0f187') in 0.005826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.338690 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3667c85e58751191397f6f75b8a416') in 0.008242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.237520 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42896bebd1f03e4e596e43ed084e2244') in 0.008058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.641730 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc748cb9296c7af9a66965852b8a66c7') in 0.011124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.632906 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9733e50a9026c756b8ca4bf7da6172d0') in 0.009675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.223146 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85efcc39552dc2c4c7fe5c2961316395') in 0.007893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.454167 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a884641c0dc1714e0212144b0fd46e') in 0.010479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.876881 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a309b337b457590976e639a9019fb65a') in 0.009367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.798402 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e0c272c1b3e2bfa29e0ba340e6551b') in 0.012473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.834455 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5612f480ce596049d82e0341b3d8a95e') in 0.009540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.687859 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69dd54aa12fa4f8f092e2213d441400') in 0.010250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.254149 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6ad7794f1384b41ad04b37f5806afc') in 0.010841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.228520 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac862ef7502be7150cdd9dfacca8523') in 0.009406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.990132 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383529b648a4b1cbe6ad2469af83b805') in 0.009463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.819701 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd66117429930e06ae9d905a9b5d863') in 0.012366 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002563 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (578ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (150ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (201ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (95.3 KB). Loaded Objects now: 4071.
+Memory consumption went from 126.1 MB to 126.0 MB.
+Total: 1.907700 ms (FindLiveObjects: 0.136600 ms CreateObjectMapping: 0.043100 ms MarkObjects: 1.705700 ms  DeleteObjects: 0.022000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 103.092960 seconds.
+  path: Assets/GreyBox/SmallRoom.prefab
+  artifactKey: Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom.prefab using Guid(13789563657b3a748bd895c12be2745c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8529af30813224e8e0ec61abad47cf') in 0.044346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.529778 seconds.
+  path: Assets/GreyBox/Tunnel.prefab
+  artifactKey: Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Tunnel.prefab using Guid(3f7e35a83e9ecc74c9fc7de4203372ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7243e789020d51a3a60aaa0750e1419a') in 0.011723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.906353 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07e565ecf792c3584b9a15ed3d114ca') in 0.009471 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002726 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.570 seconds
+Domain Reload Profiling:
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (444ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (145ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (204ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (95.4 KB). Loaded Objects now: 4086.
+Memory consumption went from 126.1 MB to 126.0 MB.
+Total: 1.912800 ms (FindLiveObjects: 0.146300 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.701400 ms  DeleteObjects: 0.021600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 130.226459 seconds.
+  path: Assets/GreyBox/SmallRoom 1.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/SmallRoom 1.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68705098f9485d2200cbeff5646c328a') in 0.049768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/GreyBox/Light.prefab
+  artifactKey: Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/Light.prefab using Guid(46c43b96ab99d2c4c867124b7b0a13ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaabbb257d2392990bdbadd0130f171') in 0.010064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.813914 seconds.
+  path: Assets/GreyBox/M.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/M.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37497578535b4d67d80e6a94bd0e3c5') in 0.017750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.331719 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d763eced5d75703deaa55dec68a5b6a') in 0.013963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.763674 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb86e2d18f4006772b4efc878885ba7') in 0.012086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.075006 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a3668c66eb3cb69683c8d4704afa4a') in 0.011756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.260559 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6e57c18ac6f77c6385d4822bdf0b19') in 0.012733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.423429 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c2e2e232da771fb4440ea4155b9315') in 0.009320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.802586 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdb75d175502972e623710393e62173') in 0.013877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.608805 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c60dfed26670cef6a1627c2d33d3f1') in 0.011494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.222678 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21121d5ca5b12fbb503440c5b865e4a7') in 0.009604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.835028 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea271bdeb22a31efc8976c145a2ba6c6') in 0.017506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.029208 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3431e2ac6bc117b28ae664e3bbdf4d4a') in 0.011019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.924798 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5164681e93b927b2f8d3b53629ae20') in 0.008278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.029772 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72a390b0cb56462c3c54c4e61dee378') in 0.015908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.633107 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53756d4e1b8d605f3ed67fba3ba828fd') in 0.010049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.023247 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71af5e77cd1910fd6289b841035a0230') in 0.011990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.413044 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3c2e557be4613b8069a60b3410ebb8') in 0.011591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.416512 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81deda17da39f40c96334352fd84b6a8') in 0.013338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.458732 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5a7ea3a810714f5c728ad4f1d1c5cd') in 0.010497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.206438 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6d50a5dfa35e5be964ad0fc9e53716') in 0.011444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.421794 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf95ed5b895562e21c2fece1c36e41ec') in 0.010375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.796396 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69204da83150e8a6e4ae25e3fdf6beee') in 0.016610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.803635 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f96cb0f6e53d546f1952118c2d9a251') in 0.009983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.827609 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3f7e922f26acb1b8feaee738341592') in 0.011519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.831870 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6296404adcc64e6c5485d23ea736c9') in 0.012052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.202674 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a069ff585c03b6351fa129da19e6076') in 0.013650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.207218 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9cdb509afb01f57ff288d512e8cbf9') in 0.010737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.231227 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6509c6a7cbeb3f7805020dd719f1d9') in 0.015529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.596671 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bb9e62cf55be9d3f83db763114bdd0') in 0.011744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.722527 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0cd474c4451a83f68c16d26abe681a') in 0.011269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.413554 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa700cdbffcb8abcf621a3c8ece408d3') in 0.004422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.705686 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321ec3665ea69a95d4f2e2e01d325b0d') in 0.005344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.242362 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7354209f1c0f8df1691c1934ae94706') in 0.011336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.416426 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb023f63448c2252df5e1f7f550d945') in 0.005415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.400539 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0524353e542657fc3bdb6e7c84e4d9b') in 0.008124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.843632 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9154d936893f2985a6489a29725708d4') in 0.009692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.623570 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64fe1a1584a223640a0e711cae88a18') in 0.009490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.233988 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb84c122e94dc9e85745c2666498432') in 0.009153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.287710 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c527ef1c01785231f149fb992a6b17') in 0.005823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.510839 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33124ee1fdbe78f510e2ff96e6941102') in 0.008543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.434209 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a6d727ab9ef67b9bc966e50b9c2344') in 0.006250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.291354 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42787a6c486ed741e7bf42ba3944c8f2') in 0.009794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.276983 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142867a5301a2becc72ed9f754f88dc2') in 0.006503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.122253 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2258045fb527e387b98b52a47e6b18b3') in 0.005161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.456008 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2742efffc92661fa093eb6f709f4e577') in 0.010634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.616210 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb428a024900ecc53450ff527ee0d94') in 0.011643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.600452 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2364d305d2417ffa9e6e56a4edbf18') in 0.010544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.195323 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84480d7822d7ebb2cf15ada2985ae24') in 0.012190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.625028 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd748ed3927dab440d38295dfbcf1ca20') in 0.011236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.202764 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27ac8cd514f07292923398e893f8f270') in 0.009470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.492331 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37a0c3327eb37222bc65e30c2ed9b20') in 0.010470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.809054 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6474cd639aaaff8d262bacf8023e27') in 0.011839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.007493 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e5dc3d160da4c9e34fa8ed6c7f4a0a') in 0.010088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.136849 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e37b105e69df3369037419f478b9110') in 0.011574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.597373 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e6a36462c8b5a2565d042dddcce65a') in 0.009831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.405514 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f79b12056ffb37dd9d148bbb643c853b') in 0.011478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.541827 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d594d9f1fd84c2f2a14c61c65c017f7') in 0.011083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.202259 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e7570921fb56821ab4f0afb8f01c20') in 0.011646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.226501 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15584d789850c90e956059e756842e9e') in 0.005907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.629425 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd686da9bc54faf1fadc842eb3dcf2e01') in 0.011506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.403790 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cfaee474a1d2170bbccfd978ecba11') in 0.009554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.995214 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd834feb6f6f0d7829a4eb02dbe3bc4e8') in 0.010910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.010731 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e376ffb1e6f46ed63e1d70d54fb4b8') in 0.012245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.584910 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553fe07359564362ccce7913d38ac88b') in 0.009860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.656314 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7a17649fca74432eafd418284e6cdd') in 0.010433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.128253 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2551556de9eef292f044586045234345') in 0.009769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.821535 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c633cfc001eeb317de3efd0a9450a91') in 0.008515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.498072 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c2523222d05461a13825f9bd2af57b') in 0.006441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.997205 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f76ea546eb42baa5350df352347eb06') in 0.010183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.093555 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080569a99ff38074ebd9ede6783e5dd5') in 0.007209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.819426 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07441c88ef1acefc8f005dc9c6f658f') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.812053 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fd7f58e5323c08e8a12d5db78f0c23') in 0.015111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.590990 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fea8c5f8cab3701b2e4aab70d55750') in 0.011082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.242076 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a742a0e49dd3612b49262114229b5d7b') in 0.011023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.429482 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a4c51d88d3e54f10c0ca29769c703b') in 0.008555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.038700 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4239aa55a172eeb904a2a5d79973c9fb') in 0.007636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.587326 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9df017e4e64193961a466d8e6560d7') in 0.009712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.004855 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c640a2afbfbde9abd55c23f543289c') in 0.008934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.604214 seconds.
+  path: Assets/GreyBox/MediumRoom.prefab
+  artifactKey: Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GreyBox/MediumRoom.prefab using Guid(a8ad7d3d395d2834ca6a2eba8e590dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515e1e7f7ece0bca80dcb18a99aa0db3') in 0.008471 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002678 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.593 seconds
+Domain Reload Profiling:
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (451ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (198ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (95.3 KB). Loaded Objects now: 4101.
+Memory consumption went from 126.9 MB to 126.8 MB.
+Total: 1.884900 ms (FindLiveObjects: 0.138900 ms CreateObjectMapping: 0.071100 ms MarkObjects: 1.651800 ms  DeleteObjects: 0.022300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003010 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\61478\Documents\Projects\SpaceStation\PlayerExpA2\PlayerExpA2\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (512ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (388ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (31ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3516 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (95.4 KB). Loaded Objects now: 4115.
+Memory consumption went from 126.8 MB to 126.8 MB.
+Total: 1.744900 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.547900 ms  DeleteObjects: 0.021100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
